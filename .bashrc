@@ -4,7 +4,7 @@ alias vimdiff="vim -d"
 alias dpsa="docker ps -a"
 alias gc="git commit"
 alias gca="git commit --amend"
-
+alias ll='ls -la --color=auto'
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
@@ -16,7 +16,7 @@ fi
 # User specific aliases and functions
 
 export TERM='xterm-256color'
-source /opt/rh/devtoolset-7/enable 
+#source /opt/rh/devtoolset-7/enable 
 export PATH="~/downloads/:$PATH"
 export PATH="~/rtags/bin:$PATH"
 export PATH="~/.fzf:$PATH"
